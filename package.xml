@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>xv_sdk</name>
+  <version>0.1.0</version>
+  <description>XVisio SDK</description>
+  <maintainer email="ange@xvisiotech.com">Ange Nizard</maintainer>
+  <license>BSD</license>
+
+  <!-- buildtool_depend: dependencies of the build process -->
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <!-- build_depend: dependencies only used in source files -->
+  <build_depend>boost</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>roslint</build_depend>
+  
+  <!-- run_depend: dependencies only used at runtime -->
+  <exec_depend>message_runtime</exec_depend>
+  
+  <!-- depend: build, export, and execution dependency -->
+  <depend>eigen</depend>
+  <depend>xv-sdk</depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>camera_info_manager</depend>
+  <depend>image_transport</depend>
+  <depend>ddynamic_reconfigure</depend>
+  <depend>tf2_ros</depend>
+</package>

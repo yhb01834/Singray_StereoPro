@@ -1,0 +1,10 @@
+# A low value will be convenient. Increase it if you have conflicting devices.
+# If you do not intend to use multiple XV-SDK compatible devices at all, you can set it to zero.
+# If set to zero, the device-specific namespace will just be "xv_dev" instead of "uuid_#".
+uuid_length: 0
+
+xv_dev:
+  slam:
+    auto_start: true
+  edge:
+    auto_start: false
